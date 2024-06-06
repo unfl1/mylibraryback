@@ -1,7 +1,7 @@
 package com.example.mylibrary.mylibary.service;
 
-import com.example.mylibrary.domain.SiteUser;
-import com.example.mylibrary.repository.UserRepository;
+import com.example.mylibrary.mylibary.domain.SiteUser;
+import com.example.mylibrary.mylibary.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

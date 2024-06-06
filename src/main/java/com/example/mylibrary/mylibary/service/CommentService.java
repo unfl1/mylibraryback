@@ -1,13 +1,13 @@
 package com.example.mylibrary.mylibary.service;
 
-import com.example.mylibrary.domain.Comment;
-import com.example.mylibrary.domain.Post;
-import com.example.mylibrary.domain.SiteUser;
-import com.example.mylibrary.dto.CommentCreateDto;
-import com.example.mylibrary.dto.CommentDto;
-import com.example.mylibrary.repository.CommentRepository;
-import com.example.mylibrary.repository.PostRepository;
-import com.example.mylibrary.repository.UserRepository;
+import com.example.mylibrary.mylibary.domain.Comment;
+import com.example.mylibrary.mylibary.domain.Post;
+import com.example.mylibrary.mylibary.domain.SiteUser;
+import com.example.mylibrary.mylibary.dto.CommentCreateDto;
+import com.example.mylibrary.mylibary.dto.CommentDto;
+import com.example.mylibrary.mylibary.repository.CommentRepository;
+import com.example.mylibrary.mylibary.repository.PostRepository;
+import com.example.mylibrary.mylibary.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

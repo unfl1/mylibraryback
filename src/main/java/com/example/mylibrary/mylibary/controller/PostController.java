@@ -1,11 +1,11 @@
 package com.example.mylibrary.mylibary.controller;
 
-import com.example.mylibrary.domain.Post;
-import com.example.mylibrary.dto.MyPostListDto;
-import com.example.mylibrary.dto.PostCreateDto;
-import com.example.mylibrary.dto.PostDetailDto;
-import com.example.mylibrary.dto.PostListDto;
-import com.example.mylibrary.service.PostService;
+import com.example.mylibrary.mylibary.domain.Post;
+import com.example.mylibrary.mylibary.dto.MyPostListDto;
+import com.example.mylibrary.mylibary.dto.PostCreateDto;
+import com.example.mylibrary.mylibary.dto.PostDetailDto;
+import com.example.mylibrary.mylibary.dto.PostListDto;
+import com.example.mylibrary.mylibary.service.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

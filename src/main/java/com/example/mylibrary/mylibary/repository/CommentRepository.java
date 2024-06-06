@@ -1,6 +1,6 @@
 package com.example.mylibrary.mylibary.repository;
 
-import com.example.mylibrary.domain.Comment;
+import com.example.mylibrary.mylibary.domain.Comment;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

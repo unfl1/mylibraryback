@@ -1,15 +1,15 @@
 package com.example.mylibrary.mylibary.service;
 
-import com.example.mylibrary.domain.Image;
-import com.example.mylibrary.domain.Post;
-import com.example.mylibrary.domain.SiteUser;
-import com.example.mylibrary.dto.MyPostListDto;
-import com.example.mylibrary.dto.PostCreateDto;
-import com.example.mylibrary.dto.PostDetailDto;
-import com.example.mylibrary.dto.PostListDto;
-import com.example.mylibrary.repository.ImageRepository;
-import com.example.mylibrary.repository.PostRepository;
-import com.example.mylibrary.repository.UserRepository;
+import com.example.mylibrary.mylibary.domain.Image;
+import com.example.mylibrary.mylibary.domain.Post;
+import com.example.mylibrary.mylibary.domain.SiteUser;
+import com.example.mylibrary.mylibary.dto.MyPostListDto;
+import com.example.mylibrary.mylibary.dto.PostCreateDto;
+import com.example.mylibrary.mylibary.dto.PostDetailDto;
+import com.example.mylibrary.mylibary.dto.PostListDto;
+import com.example.mylibrary.mylibary.repository.ImageRepository;
+import com.example.mylibrary.mylibary.repository.PostRepository;
+import com.example.mylibrary.mylibary.repository.UserRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;

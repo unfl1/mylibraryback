@@ -1,7 +1,7 @@
 package com.example.mylibrary.mylibary.controller;
 
-import com.example.mylibrary.service.UserSecurityService;
-import com.example.mylibrary.service.UserService;
+import com.example.mylibrary.mylibary.service.UserSecurityService;
+import com.example.mylibrary.mylibary.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

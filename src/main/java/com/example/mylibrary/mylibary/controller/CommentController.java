@@ -1,8 +1,8 @@
 package com.example.mylibrary.mylibary.controller;
 
-import com.example.mylibrary.dto.CommentCreateDto;
-import com.example.mylibrary.dto.CommentDto;
-import com.example.mylibrary.service.CommentService;
+import com.example.mylibrary.mylibary.dto.CommentCreateDto;
+import com.example.mylibrary.mylibary.dto.CommentDto;
+import com.example.mylibrary.mylibary.service.CommentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
