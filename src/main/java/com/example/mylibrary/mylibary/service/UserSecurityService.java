@@ -1,3 +1,5 @@
+//로그인 - 유저 인증
+
 package com.example.mylibrary.mylibary.service;
 
 import com.example.mylibrary.mylibary.domain.SiteUser;
