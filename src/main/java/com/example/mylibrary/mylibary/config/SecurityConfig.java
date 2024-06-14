@@ -20,7 +20,7 @@ public class SecurityConfig {
         http.csrf().disable();
         http
                 .authorizeRequests((authorizeHttpRequests) -> authorizeHttpRequests
-                        .requestMatchers(new AntPathRequestMatcher("/**")).permitAll())
+                        .requestMatchers(new AntPathRequestMatcher("/api/**")).permitAll())
                 //로그아웃
                 .logout((logout) -> logout
                         .logoutRequestMatcher(new AntPathRequestMatcher("/user/logout"))
