@@ -94,7 +94,15 @@ public class CommentService {
         if (optionalComment.isPresent()) {
             Comment comment = optionalComment.get();
             if (comment.getUser().getUsername().equals(username)) {
-                commentRepository.delete(comment);
+                List<Comment> childComments = commentRepository.findByParentCommentId(commentId);
+                if (childComments != null && !childComments.isEmpty()) {
+                    // 대댓글이 있는 경우: "삭제된 메시지입니다"로 변경
+                    comment.setContent("삭제된 메시지입니다");
+                    commentRepository.save(comment);
+                } else {
+                    // 대댓글이 없는 경우: 실제로 삭제
+                    commentRepository.delete(comment);
+                }
                 return true;
             }
         }

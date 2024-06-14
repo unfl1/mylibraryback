@@ -85,7 +85,7 @@ public class PostService {
         Files.write(filePath, imageFile.getBytes());
 
         // 이미지 URL 구성
-        return "/images/" + fileName;
+        return "/uploads/" + fileName;  // URL 경로를 "/uploads/"로 수정
     }
 
     // 모든 post 조회
