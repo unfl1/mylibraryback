@@ -23,14 +23,14 @@ public class UserController {
     private final UserService userService;
     private final UserSecurityService userSecurityService;
 
-    @PostMapping("/api/user/signup")
+    @PostMapping("/user/signup")
     public ResponseEntity<Map<String, Object>> signup(@Valid @RequestBody Map<String, String> userCreateForm) {
         logger.info("Signup request received: {}", userCreateForm);
         Map<String, Object> resultMap = userService.createUser(userCreateForm);
         return new ResponseEntity<>(resultMap, resultMap.containsKey("error") ? HttpStatus.INTERNAL_SERVER_ERROR : HttpStatus.OK);
     }
 
-    @PostMapping("/api/user/login")
+    @PostMapping("/user/login")
     public ResponseEntity<Map<String, Object>> login(@RequestBody Map<String, String> loginRequest) {
         logger.info("Login request received: {}", loginRequest);
         Map<String, Object> resultMap = userSecurityService.authenticateUser(loginRequest);
