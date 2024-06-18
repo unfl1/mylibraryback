@@ -2,8 +2,7 @@ package com.example.mylibrary.mylibary;
 
 import org.junit.jupiter.api.Test;
 
-
-class MylibaryApplicationTests {
+class MylibraryApplicationTests {
 
 	@Test
 	void contextLoads() {
