@@ -1,10 +1,10 @@
 나만의 도서관
 
-개인 도서 대여 플랫폼 당근마켓 느낌
-
 사용기술 : spring
 
-프론트 주소 : https://github.com/unfl1/mylibraryfront
+클라우드 배포 버전 주소: https://github.com/unfl1/mylibrary
+
+프론트 주소: https://github.com/unfl1/mylibraryfront
 
 프로젝트 구조
 
