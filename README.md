@@ -1,7 +1,5 @@
 나만의 도서관
 
-사용기술 : spring
-
 클라우드 배포 버전 주소: https://github.com/unfl1/mylibrary
 
 프론트 주소: https://github.com/unfl1/mylibraryfront
